@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "slider-post-view/post-slider",
+  "title": "Post Slider & Carousel",
+  "category": "text",
+  "icon": "image-flip-horizontal",
+  "description": "Create responsive Slider and Carousel block in your WordPress site.",
+  "keywords": [
+    "latest",
+    "posts",
+    "grid"
+  ],
+  "version": "5.2.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./assets/swiper-bundle.min.css",
+  "style": "file:./post-slider.css"
+}

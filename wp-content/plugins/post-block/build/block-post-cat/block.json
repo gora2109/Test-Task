@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "category-post-view/post-group",
+  "title": "Gutenberg Post Group",
+  "category": "text",
+  "icon": "excerpt-view",
+  "description": "With the Post group block, you can group your posts category-wise.",
+  "keywords": [
+    "latest",
+    "posts",
+    "grid"
+  ],
+  "version": "5.2.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./post-group-editor.css",
+  "style": "file:./post-group.css"
+}

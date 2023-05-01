@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "trisec-post-view/post-trisec",
+  "title": "Post Trisect",
+  "category": "text",
+  "icon": "table-col-before",
+  "description": "Displaying your posts as 3 column blocks either in a 1x2 or 1x4 block with responsive height control.",
+  "keywords": [
+    "latest",
+    "posts",
+    "grid"
+  ],
+  "version": "5.2.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./post-trisec-editor.css",
+  "style": "file:./post-trisec.css"
+}
